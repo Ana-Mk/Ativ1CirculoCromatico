@@ -1,0 +1,272 @@
+/* ESTILO GERAL */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #deb8ff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #deb8ff;
+    transform: scale(1.08);
+}
+
+.btn-menu button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #deb8ff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-menu button:hover{
+    box-shadow: 0px 0px 8px #deb8ff;
+    transform: scale(1.08);
+}
+
+
+/* ESTILO DO CABECALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #a7a7a7;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #000000;
+    transform: scale(1.08);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+
+
+/* ESTILO PRIMARIAS */
+section .primarias{
+    padding: 80px 4%;
+}
+
+section .primarias .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.primarias .txt-primarias h1{
+    color: #000000;
+    font-size: 40px;
+}
+
+.primarias .txt-primarias p{
+    color: #000000;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+.vermelho:hover{
+    color:#ff0000;
+}
+
+.azul:hover{
+    color:#0000ff;
+}
+
+.amarelo:hover{
+    color:#ffff00;
+}
+
+.vermelho, .amarelo, .azul{
+    transition: .2s;
+}
+
+
+
+/* ESTILO SECUNDARIAS */
+section .secundarias{
+    padding: 80px 4%;
+}
+
+section .secundarias .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.secundarias .txt-secundarias h1{
+    color: #000000;
+    font-size: 40px;
+}
+
+.secundarias .txt-secundarias p{
+    color: #000000;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+ul li{
+    font-size: 22px;
+}
+
+.laranja:hover{
+    color:#ff7700;
+}
+
+.verde:hover{
+    color:#00ff00;
+}
+
+.roxo:hover{
+    color:#9e00ba;
+}
+
+.laranja, .verde, .roxo{
+    transition: .2s;
+}
+
+
+
+/* ESTILO TERCIARIAS */
+section .terciarias{
+    padding: 80px 4%;
+}
+
+section .terciarias .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.terciarias .txt-terciarias h1{
+    color: #000000;
+    font-size: 40px;
+}
+
+.terciarias .txt-terciarias p{
+    color: #000000;
+    margin: 40px 0;
+    font-size: 22px;
+}
+
+.ver-arr:hover{
+    color:#9f0c56 ;
+}
+
+.azu-esv:hover{
+    color:#009297 ;
+}
+
+.azu-arr:hover{
+    color:#6726bc ;
+}
+
+.ver-ala:hover{
+    color:#ff4400;
+}
+
+.ama-ala:hover{
+    color: #ffc400;
+}
+
+.ama-esv:hover{
+    color: #95ff00;
+}
+
+.ver-arr, .azu-esv, .azu-arr, 
+.ver-ala, .ama-ala, .ama-esv{
+    transition: .2s;
+}
+
+
+
+/* ESTILO CONTATO */
+section .contato{
+    padding: 80px 4%;
+}
+
+section .contato .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.contato .txt-contato h1{
+    color: #000000;
+    font-size: 40px;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #4d4c4c3d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #512f5d;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+}
+
+form div .btn-enviar{
+    margin-top: 10px;
+}
+
