@@ -21,38 +21,6 @@ body{
     display: flex;
 }
 
-.btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #deb8ff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #deb8ff;
-    transform: scale(1.08);
-}
-
-.btn-menu button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #deb8ff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-.btn-menu button:hover{
-    box-shadow: 0px 0px 8px #deb8ff;
-    transform: scale(1.08);
-}
-
 
 /* ESTILO DO CABECALHO */
 
@@ -221,52 +189,5 @@ section .terciarias .flex{
 .ver-arr, .azu-esv, .azu-arr, 
 .ver-ala, .ama-ala, .ama-esv{
     transition: .2s;
-}
-
-
-
-/* ESTILO CONTATO */
-section .contato{
-    padding: 80px 4%;
-}
-
-section .contato .flex{
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-
-.contato .txt-contato h1{
-    color: #000000;
-    font-size: 40px;
-}
-
-form{
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-}
-
-form input, form textarea{
-    width: 100%;
-    background-color: #4d4c4c3d;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #512f5d;
-    font-size: 18px;
-}
-
-form textarea{
-    resize: none;
-    max-height: 200px;
-}
-
-form div .btn-enviar{
-    margin-top: 10px;
 }
 
